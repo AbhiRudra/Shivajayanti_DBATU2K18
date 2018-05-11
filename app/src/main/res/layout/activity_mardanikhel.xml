@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shivajayanti.abhishek.shivajayanti_dbatu_2k18.mardanikhel">
+
+    <include
+        layout="@layout/slideshow3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:paddingTop="200dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="&#34;कुणी अंगावरती आले\n
+तर त्याला शिंगावरती घेऊ&#34;\n
+या महाराजांच्या चेतनेतून चैत्तन्याकडे नेण्याचा सुंदरसा मार्ग मर्दानी खेळांच्या माध्यमातून दाखवला जातो. येनाऱ्या प्रत्येक संकटाला तितक्याच ठामपणे उत्तर देण्याचं सामर्थ्यच यातून प्रतिबिंबित होत असावं, या मर्दानी खेळातील मावळ्यांची ही नजर फक्त एवढंच सांगत असते की,\n"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="&#34;करून तांडव जिंकू\n
+आम्ही दिल्लीचे तख्त ।\n
+कोण आम्हास अडवणार\n
+मावळे आम्ही जन्मताच शिवभक्त ।।&#34;\n
+
+मर्दानी खेळातला हा मावळा फक्त एवढंच सांगत राहतो,\n
+
+अनेक वादळे पेलेन मी माझ्यात आत्मविश्वास आहे।\n
+पायाखाली माती आणि पाठीवरती आकाश आहे ।।\n
+या मातीत पाय रोवूनी मी सह्याद्री सारखा ताठ आहे।\n
+जाऊन सांगा त्या वादळांना तुमची माझ्याशी गाठ आहे।।\n
+जाऊन सांगा त्या वादळांना तुमची माझ्याशी गाठ आहे।। \n"
+                    android:gravity="center"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shivajayanti.abhishek.shivajayanti_dbatu_2k18.pradarshan">
+
+
+
+    <include
+        layout="@layout/slideshow4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="राजांचा आदर्श म्हणू की आदर्शांचा राजा | \nरामासम अन कृष्णासंगे वीर शिवाजी माझा !"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:textColor="#FF3F00"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="प्रत्येक वर्षी बाटु मधील शिवजयंतीचा आलेख वाढतच जातोय. मराठी मनांचा उत्सव आणखी भव्य होत चाललाय. यावर्षीही असंच काहीतरी भव्यदिव्य करून दाखवायचं या जिद्दीने पेटलेली शेवटच्या वर्षाची मुलं, त्यांना साथ देणारी सर्व ज्युनिअर मंडळी आणि या सर्वांच्या भन्नाट कल्पना या सर्वांच्या प्रयत्नातून उभं राहणार प्रदर्शन आकर्षकतेची एक पातळी नक्कीच वाढवणारं असेल. \n
+यावर्षीच्या प्रदर्शनाची मुख्य थीम ' महाराष्ट्राच्या मातीतून परकीय अन्यायाविरुद्ध उठलेला आवाज ' अशी असून प्रदशनाचं मुख्य आकर्षण हा मध्यभागी उभारलेला भव्य शामियाना असेल. विद्यापीठाच्या आवारात भव्य असे लोहगड व सिंहगड किल्ले तयार करण्यात आले असून याबरोबरच भाषासाहित्य विभागात स्वराज्याचा कणा असलेले किल्ले व ज्यांच्या साथीने महाराजांनी स्वराज्यसंकल्प सिद्धीस नेला ते मावळे यांची माहिती देण्यात येईल.
+कागदाच्या लगद्यापासून तयार केलेले किल्ले ही अशीच एक भन्नाट संकल्पना आपल्या भेटीसाठी येत आहे. सन्मान किल्ले, शौर्य किल्ले , जलदुर्ग आणि गिर्यारोहण किल्ले असे या किल्ल्यांचे चार विभाग करण्यात आले आहेत. क्रिएटीविटी विभागात अभियांत्रिकी व तंत्रज्ञान वापरून अतिशय सुंदर अशा गोष्टी दाखवण्यात येणार असून ह्या विभागाची जादू पाहण्यासाठी विद्यापीठाला अवश्य भेट द्यावी."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="एकूणच काय तर शिवजयंती हा सण आहे एकत्र येण्याचा व ती एकता साजरी करण्याचा, या उद्देशालाच अनुसरून बंधुता वाढवण्याचा आमचा हा एक छोटासा प्रयत्न ! नक्की भेट द्या "
+                android:textStyle="bold|italic"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shivajayanti.abhishek.shivajayanti_dbatu_2k18.jallosh">
+
+    <include
+        layout="@layout/slideshow1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+        android:paddingTop="200dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"
+
+            android:text="शिवजयंती महोत्सवातील ऊर्जेचा स्फोट घडवून आणणारा क्षण म्हणजे शिवजल्लोष म्हणजेच मिरवणूक. शिवजल्लोष करण्यामागचा हेतू महाराजांच्या जन्मोत्सवाचा आनंद उत्फुर्तपणे साजरा करणे हा आहे.\n
+\nरायगडावरून ज्योत लोणेरे गावातील ग्रामदैवत सोनभैरव मंदिरात आल्यानंतर ती लोणेरे पोलीस चौकी समोर आणण्यात येते. त्यानंतर तेथून वाजत गाजत ढोल ताशांच्या गजरात लोणेरे रिक्षा थांब्याजवळ आणली जाते. तेथे सर्वप्रथम लेझीम, लाठीकाठी व त्यानंतर थरारक प्रात्यक्षिके सादर केली जातात. प्रेक्षकांच्या प्रचंड प्रतिसादात हे क्षण अनुभवणे म्हणजे जणू एक पर्वणीच.\n\n
+शिवजल्लोषामध्ये राजमाता जिजाऊ, छत्रपती शिवाजी महाराज, महाराणी सईबाई व छत्रपती संभाजी महाराज यांची पात्रे साकारली जातात. आणि ढोलताशांच्या गजरात ज्योत व महाराजांच्या पालखीची विद्यापीठात प्रतिष्ठापना केली जाते. व त्यानंतर शिवजल्लोषाची सांगता केली जाते.\n"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+</RelativeLayout>

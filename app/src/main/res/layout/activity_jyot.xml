@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shivajayanti.abhishek.shivajayanti_dbatu_2k18.jyot">
+
+    <include
+        layout="@layout/slideshow2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:paddingTop="200dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:text="तुझ्या धाडसाचे धडे दे आम्हाला ।।\nतुझ्या विचारांचे धडे सोबतीला ।।\nतयांचे शौर्य गाजवू आम्ही ।।"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="या उक्तींप्रमाणे महाराजांच्या विचारांची ज्योत आपण तेवत ठेवण्याचा प्रयत्न करत आहोत.
+\nभारतीय संस्कृतीत &#34;ज्योत&#34; ही संकल्पना प्रत्येकाच्या ह्रदयाला स्पर्शून जाते. प्रत्येक महान शुभकार्याच्या अथवा एखाद्या समाजोपयोगी कार्याच्या सुरवातीला एख्याद्या तेजस्वी, पराक्रमी वसा जपलेल्या ठिकाणाहून ज्योत पेठवून आणली जाते . त्या पवित्र ठिकाणाचे, तेथील विचारांचे जणू ती प्रतिनिधुत्वच करत असते.\n\nयाच संकल्पनेला अनुसरून आपण चैतन्य व स्फूर्तीचा अणुबॉम्ब असणाऱ्या पवित्र रायगडावरून ज्योत प्रज्वलित करतो."
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingLeft="6dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textStyle="bold"
+
+            android:text="गडांचा राजा ।।\nराजियांचा गड ।।\nकिल्ले रायगड ।।"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="6dp"
+            android:textStyle="bold"
+            android:text="\nमशाल प्रज्वलित करून आपण शिवरायांच्या महान विचारांतील, रायगडाच्या पावित्र्यातील छोटासा वाटा आपल्या विद्यापीठापर्यंत घेऊन येण्याचा प्रयत्न करत असतो. रायगडावरून प्रज्वलित केलेली ज्योत अखंडपणे या विद्यापीठातील मर्द मावळयांद्वारे अनवाणी धावत लोणेरे गावातील ग्रामदैवत सोनभैरव मंदिरात आणली जाते व त्यानंतर जल्लोषात ज्योतीची विद्यापीठातील प्रदर्शनात स्थापना केली जाते.
+\nया पावन ज्योतीचे दर्शन घेऊन विद्यापीठाचा प्रत्येक विद्यार्थी धन्य होतो. शेवटी माणसाच्या हृदयातील माणुसकीची ज्योत तेवत ठेवण्याच्या प्रयत्न या ज्योत संकल्पनेद्यारे केला जातो.\n"/>
+            </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

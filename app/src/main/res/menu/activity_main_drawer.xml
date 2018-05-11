@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shivjayanti"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="शिवजयंती-2018" />
+
+        <item
+            android:id="@+id/nav_jyot"
+            android:icon="@drawable/fire"
+            android:title="शिवज्योत" />
+
+
+        <item
+            android:id="@+id/nav_pradarshan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="प्रदर्शन" />
+        <item
+            android:id="@+id/nav_mardanikhel"
+            android:icon="@drawable/sporta"
+            android:title="मर्दानीखेळ" />
+
+        <item
+            android:id="@+id/nav_jallosh"
+            android:icon="@drawable/dance"
+            android:title="शिवजल्लोष" />
+
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/quiza"
+            android:title="कोण बनणार सरसेनापती?" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/aaa"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.shivajayanti.abhishek.shivajayanti_dbatu_2k18.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="शिवजयंती-2018"
+            android:paddingTop="8dp"
+            android:textStyle="bold"
+            android:textColor="#FFA500"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/dbatu"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="डॉ. बाबासाहेब आंबेडकर तंत्रशास्त्र विद्यापीठ"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="शिवप्रतिष्ठान DBATU"
+            android:paddingTop="8dp"
+            android:textStyle="bold"
+
+            android:textColor="#FFA500"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="महाराष्ट्राचे आराध्य दैवत छत्रपती शिवाजी महाराजांना त्रिवार वंदन करून शिवप्रतिष्ठान DBATU लोणेरे सादर करीत आहोत..."
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="शिवजयंती उत्सव 2018 पुष्प 10 वे"
+            android:paddingTop="8dp"
+            android:textStyle="italic|bold"
+            android:textColor="#FFA500"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:text="रायगडी मंदिरी वसे माझा राया ।\n
+चरणाशी अर्पितो अजन्म हि काया ।।\n
+जगदीश्वराशी जोडली ज्याची ख्याती ।\n
+प्रथम वंदितो मी तुम्हा शिवछत्रपती ।।\n"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="textStart"
+    android:textStyle="bold"
+    android:textSize="20dp"
+android:paddingLeft="8dp"
+    android:text="स्वराज्याची राजधानी किल्ले रायगडाच्या पावन भूमीत वसलेल्या डॉ.बाबासाहेब आंबेडकर तंत्रशास्त्र विद्यापीठ, लोणेरे येथे विद्यापीठ परीसरात दरवर्षी प्रचंड उत्साहात साजरा होणाऱ्या शिवजन्मोत्सवाचा घेतलेला संक्षिप्त मागोवा व या वर्षीच्या शिवजयंतीचा एक भाग म्हणून केलेला छोटासा प्रयत्न...\n
+या जगात जे काही सर्वोत्तम आणि सर्वोत्कृष्ट आहे ज्याची तुलना इतर काशाशीच होऊ शकत नाही, त्या परिमाणाला, त्या विशेषणाला शिवराय हेच नाव आहे.\n"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textStyle="italic"
+     android:textSize="20dp"
+     android:textColor="#000000"
+     android:text="नमनही तुला वंदनही तुलाच ।\n
+वाकला जरी पाठीचा कणा\n
+शरण येईल फक्त तुलाच ।।\n
+गर्वही तुझाच\n
+अभिमानही तुझाच ।\n
+झुकली जरी ही मान\n
+तरी फक्त चरणी तुझ्याच ।।\n"
+     android:gravity="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="#000000"
+            android:src="@drawable/jimagee"/>
+    </LinearLayout>
+</ScrollView>

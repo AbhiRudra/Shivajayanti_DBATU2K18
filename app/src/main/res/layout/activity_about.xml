@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shivajayanti.abhishek.shivajayanti_dbatu_2k18.about">
+
+    <include
+        layout="@layout/slideshow5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <ScrollView
+          android:layout_width="match_parent"
+          android:paddingTop="200dp"
+          android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Dr. Babasaheb Ambedkar Technological University is one and only one of its kinds in the State. The University is located at Lonere, the place in the ranges of Western Ghat, at the foot of Raigad fort, the place from where Chhatrapati Shivaji administered his major activities. It is autonomous in nature and Unitary in its character. It is established in the year 1989 by the Government of Maharashtra. Although relatively young, the University is making its mark in the field of research and technological services through its dedicated faculty and disciplined students."
+                  android:textStyle="bold"
+                  android:textSize="18dp"
+                  android:gravity="start"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:text="\nThe University has a conducted institute of its own, &#34;Institute of Petrochemical Engineering&#34;, running Diploma Courses in eight streams of engineering and technology. The University extends its services to the society through a governmental scheme of &#34;Community Polytechnic&#34; by educating the dropouts and empowering them with technical skills. The University offers education especially to rural women through a Certificate Course in Nursing Technology."/>
+
+           </LinearLayout>
+       </ScrollView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
